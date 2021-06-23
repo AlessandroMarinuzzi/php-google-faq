@@ -41,11 +41,28 @@ $questions = [
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
     <title>Domande Frequenti</title>
 </head>
 <body>
     <header>
-    
+        <div class="logo">
+            <img src="https://1000marche.net/wp-content/uploads/2020/03/Google-logo.png" alt="" width="75">
+            <h2>Privacy & Termini</h2>
+        </div>
+        <nav>
+            <a href="" class="navlink">Introduzione</a>
+            <a href="" class="navlink">Norme sulla privacy</a>
+            <a href="" class="navlink">Termini di servizio</a>
+            <a href="" class="navlink">Tecnologie</a>       
+            <a href="" class="navlink active">Domande frequenti</a>    
+        </nav>
+
     </header>
 
     <main>
