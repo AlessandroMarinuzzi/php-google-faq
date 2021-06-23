@@ -1,15 +1,16 @@
+/* Reset rules */
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-
+/* header */
 header{
     padding: 20px;
     border-bottom: 1px solid black;
 }
-
+/* Logo line */
 .logo{
     display: flex;
     padding: 18px;
@@ -17,7 +18,9 @@ header{
 .logo > img{
     margin-right: 15px;
 }
+/* /Logo line */
 
+/* Navbar */
 .navlink{
     color: black;
     text-decoration: none;
@@ -27,7 +30,9 @@ header{
     color: cornflowerblue;
     border-bottom: 4px solid cornflowerblue;
 }
+/* /Navbar */
 
+/* Container */
 .container{
     width: 70%;
     padding: 30px;
@@ -40,4 +45,6 @@ header{
 }
 .container>p{
     margin: 20px 0;
+
 }
+/* /Container */

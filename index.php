@@ -51,10 +51,14 @@ $questions = [
 </head>
 <body>
     <header>
+    <!-- logo -->
         <div class="logo">
             <img src="https://1000marche.net/wp-content/uploads/2020/03/Google-logo.png" alt="" width="75">
             <h2>Privacy & Termini</h2>
         </div>
+    <!-- /logo -->
+
+    <!-- navabar -->
         <nav>
             <a href="" class="navlink">Introduzione</a>
             <a href="" class="navlink">Norme sulla privacy</a>
@@ -62,11 +66,13 @@ $questions = [
             <a href="" class="navlink">Tecnologie</a>       
             <a href="" class="navlink active">Domande frequenti</a>    
         </nav>
+    <!-- /navabar -->
 
     </header>
 
     <main>
         <div class="container">
+        <!-- Dynamically insert data -->
             <?php 
                 foreach ($questions as $question) {
                     echo "<h2>{$question["question"]}</h2>";
